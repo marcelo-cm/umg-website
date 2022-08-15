@@ -7,9 +7,7 @@
     flex-wrap: nowrap;
     margin: 0px;
     padding: 0px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: red;
+    border: 1px solid red;
     border-image: initial;
 }
 
@@ -18,7 +16,6 @@ body {
     height: 1000px;
     background: radial-gradient(180.32% 128.08% at 156.25% 128.08%, rgb(79, 106, 179) 0%, rgb(0, 0, 69) 100%), rgb(255, 255, 255);
     display: block;
-    margin: 8px;
 }
 
 .umg-header {
@@ -42,10 +39,13 @@ body {
 }
 
 .tagline {
-    display: flex;
+    display: block;
     position: relative;
-    font-size: 54px;
     margin: 3.5rem 0px;
+}
+
+.tagline-single-line {
+    font-size: 54px;
 }
 
 #school-selector {
@@ -96,7 +96,7 @@ ul a, .school-selector {
     opacity: 0.5;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight:600;
+    font-weight: 600;
     font-size: 18px;
     border: transparent
 }
